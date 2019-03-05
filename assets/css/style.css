@@ -1,0 +1,144 @@
+
+body {
+    background-image: url(https://images.wallpaperscraft.com/image/metal_line_stripes_light_shiny_silver_18401_1920x1080.jpg);
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12;
+    color:#777777;
+    border-color: #dddddd;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 100%;
+    height: 100%    
+}
+
+
+header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    font-family: "Georgia", Times, 'Times New Roman', serif;
+    height: 40px;
+    padding-bottom: 2%;
+    box-sizing: content-box;
+    width: 100%;  
+}
+
+#name {
+    background-color: teal;
+    border-style: solid;
+    color:#ffffff;
+    float: left;
+    font-size: 20px;
+    border-width: 2px;
+    margin-left: 25%;
+    padding-bottom: 8px;
+    padding-top: 24px;
+    box-sizing: content-box;
+    width: 120px;
+    border-color: teal;  
+}
+
+#about,#portfolio, #contact {
+    float: right;
+    font-size: 12px;
+    border-left: solid;
+    border-color: black;
+    border-width: 1px;
+    margin-left: 10px;
+    padding-left: 10px;
+    margin-right: 2px;
+    margin-top: 20px;
+}
+
+h1 {
+    color:#4aaaa5;
+    padding-top: 4%;
+    padding-bottom: 0%;
+    font-weight: bold;
+    margin: 0px;
+    padding-left: 20px;
+}
+
+.container {
+    margin-top: 20px;
+    border-style: solid; 
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 300px;
+    border-width: 1px;
+    float: left;
+    background-color: #ffffff;
+    padding-bottom: 30px;
+    margin-right: 240px;
+    max-width: 70ch;
+    height: 100%;
+    
+}
+
+img {
+    float: left;
+    margin: 3px;
+    padding-left: 14px;
+    padding-top: 30px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+#copyright {
+    color: #ffffff;
+    line-height: 40px;
+    font-size: 0.7em;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    border-top-style: solid;
+    border-width: 8px;
+    border-color: teal;
+    padding-top: 10px;
+    box-sizing: content-box;
+    width: 100%;
+    margin-left: 0%;
+    background-color: grey;
+    margin-bottom: 0%;
+}
+
+p {
+   word-spacing: 2px;
+   margin: 14px;
+   letter-spacing: 1px;
+}
+
+ .first {
+    border-top-style: solid;
+    border-width: 2px;
+    border-color: grey;
+    padding-top: 20px;
+    margin-left: 3%;
+    margin-right: 3%;   
+}
+
+.second {
+    margin-bottom: 8px;
+}
+
+#usrform, #email {
+    padding-left: 20px;
+    padding-top: 12px;
+    float: left;
+    margin-right:4px;
+}
+#message {
+    text-align: left;
+    padding-top: 60px;
+    margin-left: 20px;
+}
+.comment-box {
+    padding-left: 20px;
+    margin-right: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    
+}
+
