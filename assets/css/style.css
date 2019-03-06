@@ -59,6 +59,7 @@ h1 {
 }
 
 .container {
+    margin-bottom: 100px;
     margin-top: 20px;
     border-style: solid; 
     margin-left: 25%;
@@ -138,7 +139,27 @@ p {
 
 
 @media screen and (max-width: 768px) {
-
+body {
+    width:100%;
+}
+header {
+    width:100%;
+}
     
 }
-
+@media screen and (max-width: 640px) {
+#name {
+ width: 99%;
+ margin-left: 0%;
+ text-align: center;
+}
+section {
+    margin-left: 100%
+}
+.container {
+    margin-left: 4px;
+    padding-right: 4px;
+    width: 96%;
+    margin-right: 4px;
+}
+}
